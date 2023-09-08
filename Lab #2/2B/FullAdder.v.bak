@@ -1,1 +1,0 @@
-module FullAdder (A, B, C_in, S, C_out);
