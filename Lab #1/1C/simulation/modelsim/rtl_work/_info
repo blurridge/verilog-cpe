@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dZ:/CPE 3101L/Lab #1/1C/simulation/modelsim
+vHalfAdder
+!s110 1694149287
+!i10b 1
+!s100 ]IQS8UhPV3Nj[bg:9AHnl1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ik6YGRi:o3E8l7[n`TW7Tn2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1693543928
+8Z:/CPE 3101L/Lab #1/1C/HalfAdder.v
+FZ:/CPE 3101L/Lab #1/1C/HalfAdder.v
+!i122 0
+L0 5 8
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1694149287.000000
+!s107 Z:/CPE 3101L/Lab #1/1C/HalfAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/CPE 3101L/Lab #1/1C|Z:/CPE 3101L/Lab #1/1C/HalfAdder.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+Z:/CPE 3101L/Lab #1/1C}
+Z7 tCvgOpt 0
+n@half@adder
+vtb_HalfAdder
+!s110 1694149288
+!i10b 1
+!s100 l<]Jj^5BT3S[i5Q2dnIV52
+R1
+I;oX=aY;IlC[Z;XeCJF1nh2
+R2
+R0
+w1694148840
+8Z:/CPE 3101L/Lab #1/1C/tb_HalfAdder.v
+FZ:/CPE 3101L/Lab #1/1C/tb_HalfAdder.v
+!i122 1
+L0 11 21
+R3
+r1
+!s85 0
+31
+R4
+!s107 Z:/CPE 3101L/Lab #1/1C/tb_HalfAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/CPE 3101L/Lab #1/1C|Z:/CPE 3101L/Lab #1/1C/tb_HalfAdder.v|
+!i113 1
+R5
+R6
+R7
+ntb_@half@adder

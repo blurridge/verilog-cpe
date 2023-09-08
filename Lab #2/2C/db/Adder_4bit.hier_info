@@ -1,0 +1,121 @@
+|Adder_4bit
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+C_in => C_in.IN1
+S[0] << FullAdder:FA1.S
+S[1] << FullAdder:FA2.S
+S[2] << FullAdder:FA3.S
+S[3] << FullAdder:FA4.S
+C_out << FullAdder:FA4.C_out
+
+
+|Adder_4bit|FullAdder:FA1
+A => A.IN1
+B => B.IN1
+C_in => C_in.IN1
+S <= HalfAdder:secondAdder.S
+C_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Adder_4bit|FullAdder:FA1|HalfAdder:firstAdder
+x => X1.IN0
+x => A1.IN0
+y => X1.IN1
+y => A1.IN1
+C <= A1.DB_MAX_OUTPUT_PORT_TYPE
+S <= X1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Adder_4bit|FullAdder:FA1|HalfAdder:secondAdder
+x => X1.IN0
+x => A1.IN0
+y => X1.IN1
+y => A1.IN1
+C <= A1.DB_MAX_OUTPUT_PORT_TYPE
+S <= X1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Adder_4bit|FullAdder:FA2
+A => A.IN1
+B => B.IN1
+C_in => C_in.IN1
+S <= HalfAdder:secondAdder.S
+C_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Adder_4bit|FullAdder:FA2|HalfAdder:firstAdder
+x => X1.IN0
+x => A1.IN0
+y => X1.IN1
+y => A1.IN1
+C <= A1.DB_MAX_OUTPUT_PORT_TYPE
+S <= X1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Adder_4bit|FullAdder:FA2|HalfAdder:secondAdder
+x => X1.IN0
+x => A1.IN0
+y => X1.IN1
+y => A1.IN1
+C <= A1.DB_MAX_OUTPUT_PORT_TYPE
+S <= X1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Adder_4bit|FullAdder:FA3
+A => A.IN1
+B => B.IN1
+C_in => C_in.IN1
+S <= HalfAdder:secondAdder.S
+C_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Adder_4bit|FullAdder:FA3|HalfAdder:firstAdder
+x => X1.IN0
+x => A1.IN0
+y => X1.IN1
+y => A1.IN1
+C <= A1.DB_MAX_OUTPUT_PORT_TYPE
+S <= X1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Adder_4bit|FullAdder:FA3|HalfAdder:secondAdder
+x => X1.IN0
+x => A1.IN0
+y => X1.IN1
+y => A1.IN1
+C <= A1.DB_MAX_OUTPUT_PORT_TYPE
+S <= X1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Adder_4bit|FullAdder:FA4
+A => A.IN1
+B => B.IN1
+C_in => C_in.IN1
+S <= HalfAdder:secondAdder.S
+C_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Adder_4bit|FullAdder:FA4|HalfAdder:firstAdder
+x => X1.IN0
+x => A1.IN0
+y => X1.IN1
+y => A1.IN1
+C <= A1.DB_MAX_OUTPUT_PORT_TYPE
+S <= X1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Adder_4bit|FullAdder:FA4|HalfAdder:secondAdder
+x => X1.IN0
+x => A1.IN0
+y => X1.IN1
+y => A1.IN1
+C <= A1.DB_MAX_OUTPUT_PORT_TYPE
+S <= X1.DB_MAX_OUTPUT_PORT_TYPE
+
+
