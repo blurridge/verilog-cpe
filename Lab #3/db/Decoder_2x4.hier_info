@@ -1,0 +1,38 @@
+|Decoder_2x4
+A[0] => A[0].IN2
+A[1] => A[1].IN2
+E => E.IN4
+D[0] << Tri_And:zero_out.port3
+D[1] << Tri_And:first_out.port3
+D[2] << Tri_And:second_out.port3
+D[3] << Tri_And:third_out.port3
+
+
+|Decoder_2x4|Tri_And:third_out
+A => G1.IN0
+B => G1.IN1
+C => G2.IN1
+f_out <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Decoder_2x4|Tri_And:second_out
+A => G1.IN0
+B => G1.IN1
+C => G2.IN1
+f_out <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Decoder_2x4|Tri_And:first_out
+A => G1.IN0
+B => G1.IN1
+C => G2.IN1
+f_out <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Decoder_2x4|Tri_And:zero_out
+A => G1.IN0
+B => G1.IN1
+C => G2.IN1
+f_out <= G2.DB_MAX_OUTPUT_PORT_TYPE
+
+
